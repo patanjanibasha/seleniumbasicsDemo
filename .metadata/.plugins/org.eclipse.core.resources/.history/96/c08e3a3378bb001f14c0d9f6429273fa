@@ -1,0 +1,11 @@
+package com.jani.AppUtils;
+
+import org.openqa.selenium.WebElement;
+
+public class AppUtils {
+
+	public void setUp()
+	{
+		WebElement ele ;
+	}
+}

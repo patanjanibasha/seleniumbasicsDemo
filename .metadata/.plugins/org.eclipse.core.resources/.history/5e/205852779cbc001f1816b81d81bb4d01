@@ -1,0 +1,13 @@
+package com.jani.PracticePackage;
+
+import com.jani.Utils.PracticeUtils;
+
+public class DropdownPractice extends PracticeUtils{
+
+	public static void main(String[] args) {
+		
+		LaunchApplication("https://letcode.in/dropdowns");
+		
+	}
+
+}

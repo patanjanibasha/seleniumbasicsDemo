@@ -1,0 +1,33 @@
+package com.jani.AppUtils;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+
+public class AppUtils {
+
+	WebDriver driver = null;
+	String url ="http://facebook.com";
+
+	public void setUp()
+	{
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		// driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+	}
+
+	void launchApp()
+	{
+		driver.get(url);
+	}
+
+	void closeApp()
+	{
+		driver.close();
+	}
+}

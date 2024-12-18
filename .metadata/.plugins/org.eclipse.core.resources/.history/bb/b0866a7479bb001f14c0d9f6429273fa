@@ -1,0 +1,13 @@
+package com.jani.AppUtils;
+
+import org.openqa.selenium.WebElement;
+
+public class AppUtils {
+
+	WebDriver driver = new ChromeDriver();
+	
+	public void setUp()
+	{
+		WebElement ele ;
+	}
+}

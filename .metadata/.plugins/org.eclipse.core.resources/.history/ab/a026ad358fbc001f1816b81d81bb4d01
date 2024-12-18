@@ -1,0 +1,10 @@
+package com.jani.gurusir.guruSir;
+
+public class CheclTestCases {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

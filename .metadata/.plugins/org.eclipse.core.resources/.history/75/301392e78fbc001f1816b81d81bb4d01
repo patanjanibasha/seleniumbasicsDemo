@@ -1,0 +1,12 @@
+package com.jani.TestCases;
+
+import com.jani.Utils.AppUtils;
+
+public class LoginwithValidInputsTestCase extends AppUtils{
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
